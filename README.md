@@ -1,3 +1,11 @@
+**[Important Note]**
+Changes to the Code base Dated 14th June 2024:
+- Adobe XMP Toolkot C++ Header includes are now flatenned due to build issues. So a #include "XMPCommon/Interfaces/BaseInterfaces/IVersionable.h" became #include "IVersionable.h"
+- Supports arm64, Dropped support for armeablev7, x86_64.
+- iOS Deployment upgraded from 8.0 to 14.0 (Tried 17.0, but seen issues)
+- Dropped XMP_incl.hpp as the new Adobe XMP SDK doesn't have the file.
+- Migrated from Adobe XMP Toolkit codebase from v5.x.x to v6.0.0.
+
 ![logo][1]
 __`XMPFramework` is a simple Objective-C++ wrapper on top of [Adobe XMP ToolKit][2] that allow for a native API similar to `NSUserDefaults` to read/write XMP data.__
 
