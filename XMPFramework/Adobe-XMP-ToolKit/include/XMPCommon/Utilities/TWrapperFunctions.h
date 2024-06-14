@@ -2,15 +2,15 @@
 #define TWrapperFunctions_h__ 1
 
 // =================================================================================================
-// ADOBE SYSTEMS INCORPORATED
-// Copyright 2014 Adobe Systems Incorporated
+// Copyright Adobe
+// Copyright 2014 Adobe
 // All Rights Reserved
 //
 // NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the terms
-// of the Adobe license agreement accompanying it.
+// of the Adobe license agreement accompanying it. 
 // =================================================================================================
 
-#include "XMPCommon/Interfaces/IError.h"
+#include "IError.h"
 
 #if SUPPORT_VARIADIC_TEMPLATES
 //! \cond XMP_INTERNAL_DOCUMENTATION
@@ -247,6 +247,6 @@ namespace AdobeXMPCommon {
 
 //! \endcond
 #else
-	#include "XMPCommon/Utilities/TWrapperFunctions2.h"
+	#include "TWrapperFunctions2.h"
 #endif
 #endif  // TWrapperFunctions_h__

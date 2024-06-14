@@ -1,10 +1,10 @@
 // =================================================================================================
-// ADOBE SYSTEMS INCORPORATED
-// Copyright 2015 Adobe Systems Incorporated
+// Copyright Adobe
+// Copyright 2015 Adobe
 // All Rights Reserved
 //
 // NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the terms
-// of the Adobe license agreement accompanying it.
+// of the Adobe license agreement accompanying it. 
 // =================================================================================================
 
 namespace AdobeXMPCore {
@@ -13,17 +13,17 @@ namespace AdobeXMPCore {
 
 #define FRIEND_CLASS_DECLARATION() friend class AdobeXMPCore::INodeProxy;
 
-#include "XMPCore/Interfaces/INode.h"
+#include "INode.h"
 
 #if !BUILDING_XMPCORE_LIB && !SOURCE_COMPILING_XMPCORE_LIB
 
-#include "XMPCommon/Utilities/TWrapperFunctions.h"
-#include "XMPCommon/Interfaces/IUTF8String.h"
-#include "XMPCore/Interfaces/IPath.h"
-#include "XMPCore/Interfaces/ISimpleNode.h"
-#include "XMPCore/Interfaces/INodeIterator.h"
-#include "XMPCore/Interfaces/IArrayNode.h"
-#include "XMPCore/Interfaces/IMetadata.h"
+#include "TWrapperFunctions.h"
+#include "IUTF8String.h"
+#include "IPath.h"
+#include "ISimpleNode.h"
+#include "INodeIterator.h"
+#include "IArrayNode.h"
+#include "IMetadata.h"
 
 #include <assert.h>
 

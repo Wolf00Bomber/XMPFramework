@@ -16,9 +16,9 @@
 	#pragma warning ( disable : 4800 )	// forcing value to bool 'true' or 'false' (performance warning)
 #endif
 
-#include "client-glue/WXMP_Common.hpp"
+#include "WXMP_Common.hpp"
 
-#include "client-glue/WXMPFiles.hpp"
+#include "WXMPFiles.hpp"
 
 // =================================================================================================
 // Implementation Guidelines

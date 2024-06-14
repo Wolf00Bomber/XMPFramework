@@ -1,20 +1,20 @@
 // =================================================================================================
-// ADOBE SYSTEMS INCORPORATED
-// Copyright 2015 Adobe Systems Incorporated
+// Copyright Adobe
+// Copyright 2015 Adobe
 // All Rights Reserved
 //
 // NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the terms
-// of the Adobe license agreement accompanying it.
+// of the Adobe license agreement accompanying it. 
 // =================================================================================================
 
 #define FRIEND_CLASS_DECLARATION() friend class IUTF8StringProxy;
 
-#include "XMPCommon/Interfaces/IUTF8String.h"
+#include "IUTF8String.h"
 
 #if !BUILDING_XMPCOMMON_LIB && !SOURCE_COMPILING_XMP_ALL
 
-#include "XMPCommon/Utilities/TWrapperFunctions.h"
-#include "XMPCommon/Interfaces/IObjectFactory.h"
+#include "TWrapperFunctions.h"
+#include "IObjectFactory.h"
 
 #include <assert.h>
 

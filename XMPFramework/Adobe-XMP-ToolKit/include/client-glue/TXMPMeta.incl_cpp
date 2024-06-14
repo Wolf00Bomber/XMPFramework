@@ -13,15 +13,15 @@
 
 #include "XMP.hpp"
 
-#include "client-glue/WXMP_Common.hpp"
+#include "WXMP_Common.hpp"
 
-#include "client-glue/WXMPMeta.hpp"
+#include "WXMPMeta.hpp"
 
 
-#include "XMPCore/XMPCoreDefines.h"
+#include "XMPCoreDefines.h"
 #if ENABLE_CPP_DOM_MODEL
-	#include "XMPCore/Interfaces/IMetadata.h"
-	#include "XMPCore/Interfaces/ICoreObjectFactory.h"
+	#include "IMetadata.h"
+	#include "ICoreObjectFactory.h"
 #endif
 
 

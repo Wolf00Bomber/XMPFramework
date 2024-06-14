@@ -20,7 +20,7 @@
 #define XMPUtilsDomain @"org.cocoapods.XMPFramework"
 
 // Ensure XMP templates are instantiated
-#include "XMP_incl.hpp"
+// #include "XMP_incl.hpp"
 
 // Provide access to the API
 #include "XMP.hpp"

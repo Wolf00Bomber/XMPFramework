@@ -1,16 +1,16 @@
 // =================================================================================================
-// ADOBE SYSTEMS INCORPORATED
-// Copyright 2015 Adobe Systems Incorporated
+// Copyright Adobe
+// Copyright 2015 Adobe
 // All Rights Reserved
 //
 // NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the terms
-// of the Adobe license agreement accompanying it.
+// of the Adobe license agreement accompanying it. 
 // =================================================================================================
 
-#include "XMPCore/XMPCoreFwdDeclarations.h"
-#include "XMPCommon/Interfaces/IError.h"
-#include "XMPCommon/Interfaces/BaseInterfaces/IConfigurable.h"
-#include "XMPCore/XMPCoreErrorCodes.h"
+#include "XMPCoreFwdDeclarations.h"
+#include "IError.h"
+#include "IConfigurable.h"
+#include "XMPCoreErrorCodes.h"
 
 namespace AdobeXMPCore {
 

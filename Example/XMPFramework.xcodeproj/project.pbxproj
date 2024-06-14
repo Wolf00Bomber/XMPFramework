@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		03E885A9211FDEB100B726BA /* targetImage.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 03E885A8211FDEB100B726BA /* targetImage.JPG */; };
 		03E88659211FE7E700B726BA /* input.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 03E88658211FE7E700B726BA /* input.JPG */; };
+		1BD62501A81C37D5F265E725 /* Pods_XMPFramework_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD55AF2A534D51B6C9517DB2 /* Pods_XMPFramework_Example.framework */; };
+		4357821C2C19D8BD00984CBE /* XMPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4357821B2C19D8BD00984CBE /* XMPFramework.framework */; };
+		439F9DA72C19EACE00DD87AF /* XMPFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4357821B2C19D8BD00984CBE /* XMPFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		439F9DA92C19ED6200DD87AF /* StringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 439F9DA82C19ED6200DD87AF /* StringTest.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,9 +26,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		860217DEC99EAF4095EF0721 /* Pods_XMPFramework_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FDBCE05F8F6385C393A0F0 /* Pods_XMPFramework_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		87A8F0A248B633DE7310746F /* Pods_XMPFramework_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E21ABD5EBDCFE64509E5F7 /* Pods_XMPFramework_Example.framework */; };
+		A3A87A257AD30128523FA0DB /* Pods_XMPFramework_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87EC1F36A8B281DECCA9D2AF /* Pods_XMPFramework_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +40,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4357821E2C19D8BD00984CBE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				439F9DA72C19EACE00DD87AF /* XMPFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		03E885A8211FDEB100B726BA /* targetImage.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = targetImage.JPG; sourceTree = "<group>"; };
 		03E88658211FE7E700B726BA /* input.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = input.JPG; sourceTree = "<group>"; };
-		45D1CCA6B71D6420B47FA9A0 /* Pods-XMPFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPFramework_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMPFramework_Example/Pods-XMPFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
+		269092CAEE01843CB0A46EE7 /* Pods-XMPFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPFramework_Example.debug.xcconfig"; path = "Target Support Files/Pods-XMPFramework_Example/Pods-XMPFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4357821B2C19D8BD00984CBE /* XMPFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XMPFramework.framework; path = "build/Debug-iphonesimulator/XMPFramework/XMPFramework.framework"; sourceTree = "<group>"; };
+		439F9DA82C19ED6200DD87AF /* StringTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringTest.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XMPFramework_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMPFramework_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,15 +79,15 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		62623A54BD0B4DBFFFC39394 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		65B2B129F298770C27DB908F /* Pods-XMPFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPFramework_Example.release.xcconfig"; path = "Target Support Files/Pods-XMPFramework_Example/Pods-XMPFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
+		671DAAF575E5BB30F1876486 /* Pods-XMPFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPFramework_Tests.release.xcconfig"; path = "Target Support Files/Pods-XMPFramework_Tests/Pods-XMPFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		70AE6E427ACEAF4C7CFDB557 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		963089EC674319F04963792B /* Pods-XMPFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPFramework_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMPFramework_Tests/Pods-XMPFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9FFE46CB14D17061F72EDE46 /* Pods-XMPFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPFramework_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMPFramework_Example/Pods-XMPFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C5FDBCE05F8F6385C393A0F0 /* Pods_XMPFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMPFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0E21ABD5EBDCFE64509E5F7 /* Pods_XMPFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMPFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5A9F8692DCDFD1FEE6C8332 /* Pods-XMPFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPFramework_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMPFramework_Tests/Pods-XMPFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		87EC1F36A8B281DECCA9D2AF /* Pods_XMPFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMPFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD55AF2A534D51B6C9517DB2 /* Pods_XMPFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMPFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E648922D9A1668D334BD683C /* XMPFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XMPFramework.podspec; path = ../XMPFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FA49C1EDC50CFC39DB4B3ECF /* Pods-XMPFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPFramework_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XMPFramework_Tests/Pods-XMPFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +98,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				87A8F0A248B633DE7310746F /* Pods_XMPFramework_Example.framework in Frameworks */,
+				1BD62501A81C37D5F265E725 /* Pods_XMPFramework_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,8 +107,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
+				4357821C2C19D8BD00984CBE /* XMPFramework.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				860217DEC99EAF4095EF0721 /* Pods_XMPFramework_Tests.framework in Frameworks */,
+				A3A87A257AD30128523FA0DB /* Pods_XMPFramework_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +124,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				9C66EFE28E757C8DC57855B7 /* Pods */,
+				7E2B0152502E563684749848 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,11 +140,12 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4357821B2C19D8BD00984CBE /* XMPFramework.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
-				D0E21ABD5EBDCFE64509E5F7 /* Pods_XMPFramework_Example.framework */,
-				C5FDBCE05F8F6385C393A0F0 /* Pods_XMPFramework_Tests.framework */,
+				CD55AF2A534D51B6C9517DB2 /* Pods_XMPFramework_Example.framework */,
+				87EC1F36A8B281DECCA9D2AF /* Pods_XMPFramework_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,6 +182,7 @@
 			children = (
 				6003F5BB195388D20070C39A /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
+				439F9DA82C19ED6200DD87AF /* StringTest.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -187,15 +209,15 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		9C66EFE28E757C8DC57855B7 /* Pods */ = {
+		7E2B0152502E563684749848 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9FFE46CB14D17061F72EDE46 /* Pods-XMPFramework_Example.debug.xcconfig */,
-				45D1CCA6B71D6420B47FA9A0 /* Pods-XMPFramework_Example.release.xcconfig */,
-				963089EC674319F04963792B /* Pods-XMPFramework_Tests.debug.xcconfig */,
-				E5A9F8692DCDFD1FEE6C8332 /* Pods-XMPFramework_Tests.release.xcconfig */,
+				269092CAEE01843CB0A46EE7 /* Pods-XMPFramework_Example.debug.xcconfig */,
+				65B2B129F298770C27DB908F /* Pods-XMPFramework_Example.release.xcconfig */,
+				FA49C1EDC50CFC39DB4B3ECF /* Pods-XMPFramework_Tests.debug.xcconfig */,
+				671DAAF575E5BB30F1876486 /* Pods-XMPFramework_Tests.release.xcconfig */,
 			);
-			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,11 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "XMPFramework_Example" */;
 			buildPhases = (
-				ED0346FCAA3199D7000E35F2 /* [CP] Check Pods Manifest.lock */,
+				1326DD5ACE644550AEBC85AA /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				50ADFDC354D7797FF98E1370 /* [CP] Embed Pods Frameworks */,
+				A93EC91D992DE34BCA991158 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -224,10 +246,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "XMPFramework_Tests" */;
 			buildPhases = (
-				5DDE1C0848D84F00C71BFD48 /* [CP] Check Pods Manifest.lock */,
+				BCF552232AF1DEEB1250B773 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
+				4357821E2C19D8BD00984CBE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,7 +272,11 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Filip Busic";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 4FY4DG6QXS;
+					};
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = 4FY4DG6QXS;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -299,9 +326,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		50ADFDC354D7797FF98E1370 /* [CP] Embed Pods Frameworks */ = {
+		1326DD5ACE644550AEBC85AA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XMPFramework_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A93EC91D992DE34BCA991158 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -312,41 +361,26 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMPFramework.framework",
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XMPFramework_Example/Pods-XMPFramework_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
-		5DDE1C0848D84F00C71BFD48 /* [CP] Check Pods Manifest.lock */ = {
+		BCF552232AF1DEEB1250B773 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-XMPFramework_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ED0346FCAA3199D7000E35F2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-XMPFramework_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -370,6 +404,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				439F9DA92C19ED6200DD87AF /* StringTest.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,6 +485,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					"'IOS_ENV=1'",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -458,10 +494,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				ONLY_ACTIVE_ARCH = YES;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(inherited)";
 			};
 			name = Debug;
 		};
@@ -504,56 +543,113 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(inherited)";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FFE46CB14D17061F72EDE46 /* Pods-XMPFramework_Example.debug.xcconfig */;
+			baseConfigurationReference = 269092CAEE01843CB0A46EE7 /* Pods-XMPFramework_Example.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4FY4DG6QXS;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/build/Debug-iphonesimulator\"",
+					"\"/Users/mdsuser/Desktop\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XMPFramework/XMPFramework-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/build/Debug-iphonesimulator\"",
+				);
 				INFOPLIST_FILE = "XMPFramework/XMPFramework-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(LD_RUNPATH_SEARCH_PATHS_$(IS_MACCATALYST))";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACH_O_TYPE = mh_execute;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-I/XMPFramework/Adobe-XMP-ToolKit/include";
+				PRODUCT_BUNDLE_IDENTIFIER = org.nunna.XMPSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(inherited)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45D1CCA6B71D6420B47FA9A0 /* Pods-XMPFramework_Example.release.xcconfig */;
+			baseConfigurationReference = 65B2B129F298770C27DB908F /* Pods-XMPFramework_Example.release.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4FY4DG6QXS;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XMPFramework/XMPFramework-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "XMPFramework/XMPFramework-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(LD_RUNPATH_SEARCH_PATHS_$(IS_MACCATALYST))";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACH_O_TYPE = mh_execute;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-I/XMPFramework/Adobe-XMP-ToolKit/include";
+				PRODUCT_BUNDLE_IDENTIFIER = org.nunna.XMPSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(inherited)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 963089EC674319F04963792B /* Pods-XMPFramework_Tests.debug.xcconfig */;
+			baseConfigurationReference = FA49C1EDC50CFC39DB4B3ECF /* Pods-XMPFramework_Tests.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+				);
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4FY4DG6QXS;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/build/Debug-iphonesimulator/XMPFramework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
@@ -562,8 +658,18 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(LD_RUNPATH_SEARCH_PATHS_SHALLOW_BUNDLE_$(SHALLOW_BUNDLE)) $(PROJECT_DIR)/build/Debug-iphonesimulator/XMPFramework";
+				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = "-I/XMPFramework/Adobe-XMP-ToolKit/include";
+				PRODUCT_BUNDLE_IDENTIFIER = org.nunna.XMPSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMPFramework_Example.app/XMPFramework_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -571,19 +677,35 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5A9F8692DCDFD1FEE6C8332 /* Pods-XMPFramework_Tests.release.xcconfig */;
+			baseConfigurationReference = 671DAAF575E5BB30F1876486 /* Pods-XMPFramework_Tests.release.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+				);
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4FY4DG6QXS;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/build/Debug-iphonesimulator/XMPFramework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(LD_RUNPATH_SEARCH_PATHS_SHALLOW_BUNDLE_$(SHALLOW_BUNDLE)) $(PROJECT_DIR)/build/Debug-iphonesimulator/XMPFramework";
+				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = "-I/XMPFramework/Adobe-XMP-ToolKit/include";
+				PRODUCT_BUNDLE_IDENTIFIER = org.nunna.XMPSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMPFramework_Example.app/XMPFramework_Example";
 				WRAPPER_EXTENSION = xctest;
 			};

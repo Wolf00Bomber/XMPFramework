@@ -1,17 +1,17 @@
 // =================================================================================================
-// ADOBE SYSTEMS INCORPORATED
-// Copyright 2015 Adobe Systems Incorporated
+// Copyright Adobe
+// Copyright 2015 Adobe
 // All Rights Reserved
 //
 // NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the terms
-// of the Adobe license agreement accompanying it.
+// of the Adobe license agreement accompanying it. 
 // =================================================================================================
 
-#include "XMPCore/Interfaces/ICoreObjectFactory.h"
+#include "ICoreObjectFactory.h"
 
 #if !BUILDING_XMPCORE_LIB && !SOURCE_COMPILING_XMPCORE_LIB
 
-#include "XMPCommon/Utilities/TWrapperFunctions.h"
+#include "TWrapperFunctions.h"
 #include <assert.h>
 
 #if LINKING_XMPCORE_LIB

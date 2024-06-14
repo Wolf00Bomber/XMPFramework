@@ -2,11 +2,11 @@
 #define __XMP_hpp__ 1
 
 // =================================================================================================
-// Copyright 2002 Adobe Systems Incorporated
+// Copyright 2002 Adobe
 // All Rights Reserved.
 //
 // NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the terms
-// of the Adobe license agreement accompanying it.
+// of the Adobe license agreement accompanying it. 
 // =================================================================================================
 
 //  ================================================================================================
@@ -73,17 +73,17 @@
     typedef class TXMPUtils <TXMP_STRING_TYPE>    SXMPUtils;
     #if TXMP_EXPAND_INLINE
     	#error "TXMP_EXPAND_INLINE is not working at present. Please don't use it."
-        #include "client-glue/TXMPMeta.incl_cpp"
-        #include "client-glue/TXMPIterator.incl_cpp"
-        #include "client-glue/TXMPUtils.incl_cpp"
-        #include "client-glue/TXMPFiles.incl_cpp"
+        #include "TXMPMeta.incl_cpp"
+        #include "TXMPIterator.incl_cpp"
+        #include "TXMPUtils.incl_cpp"
+        #include "TXMPFiles.incl_cpp"
     #endif
 
 	#if XMP_INCLUDE_XMPFILES
 		#include "TXMPFiles.hpp"	// ! Needs typedef for SXMPMeta.
 		typedef class TXMPFiles <TXMP_STRING_TYPE>    SXMPFiles;
 		#if TXMP_EXPAND_INLINE
-			#include "client-glue/TXMPFiles.incl_cpp"
+			#include "TXMPFiles.incl_cpp"
 		#endif
 	#endif
 

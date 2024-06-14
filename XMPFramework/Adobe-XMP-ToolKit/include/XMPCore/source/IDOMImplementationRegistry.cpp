@@ -1,10 +1,10 @@
 // =================================================================================================
-// ADOBE SYSTEMS INCORPORATED
-// Copyright 2015 Adobe Systems Incorporated
+// Copyright Adobe
+// Copyright 2015 Adobe
 // All Rights Reserved
 //
 // NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the terms
-// of the Adobe license agreement accompanying it.
+// of the Adobe license agreement accompanying it. 
 // =================================================================================================
 
 namespace AdobeXMPCore {
@@ -13,15 +13,15 @@ namespace AdobeXMPCore {
 
 #define FRIEND_CLASS_DECLARATION() friend class AdobeXMPCore::IDOMImplementationRegistryProxy;
 
-#include "XMPCore/Interfaces/IDOMImplementationRegistry.h"
+#include "IDOMImplementationRegistry.h"
 
 #if !BUILDING_XMPCORE_LIB && !SOURCE_COMPILING_XMPCORE_LIB
 
-#include "XMPCommon/Utilities/TWrapperFunctions.h"
+#include "TWrapperFunctions.h"
 #include <assert.h>
-#include "XMPCore/Interfaces/IDOMParser.h"
-#include "XMPCore/Interfaces/IDOMSerializer.h"
-#include "XMPCore/Interfaces/ICoreObjectFactory.h"
+#include "IDOMParser.h"
+#include "IDOMSerializer.h"
+#include "ICoreObjectFactory.h"
 
 namespace AdobeXMPCore {
 

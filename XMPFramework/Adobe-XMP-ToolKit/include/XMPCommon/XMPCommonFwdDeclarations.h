@@ -2,16 +2,16 @@
 #define __XMPCommonFwdDeclarations_h__ 1
 
 // =================================================================================================
-// ADOBE SYSTEMS INCORPORATED
-// Copyright 2014 Adobe Systems Incorporated
+// Copyright Adobe
+// Copyright 2014 Adobe
 // All Rights Reserved
 //
 // NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the terms
-// of the Adobe license agreement accompanying it.
+// of the Adobe license agreement accompanying it. 
 // =================================================================================================
 
-#include "XMPCommon/XMPCommonDefines.h"
-#include "XMPCommon/XMPCommonLatestInterfaceVersions.h"
+#include "XMPCommonDefines.h"
+#include "XMPCommonLatestInterfaceVersions.h"
 #include <vector>
 
 #if SUPPORT_SHARED_POINTERS_IN_STD
@@ -125,11 +125,11 @@ namespace AdobeXMPCommon {
 
 	//!
 	//! @brief A function pointer to get the memory allocated from the library.
-	//! \param[in] size a value indicating the number of bytes to be allocated.
+    //! \param[in] size a value indicating the number of bytes to be allocated.
 	//! \return a pointer to memory allocated by the library.
 	//! \note NULL value is returned in case memory allocation fails.
 	//!
-	typedef void * ( *MemAllocateProc )( sizet sz );
+	typedef void * ( *MemAllocateProc )( sizet size );
 	void * MemAllocate( sizet size ) __NOTHROW__;
 
 	//!

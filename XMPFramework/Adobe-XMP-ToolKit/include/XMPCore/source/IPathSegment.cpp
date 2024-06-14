@@ -1,10 +1,10 @@
 // =================================================================================================
-// ADOBE SYSTEMS INCORPORATED
-// Copyright 2015 Adobe Systems Incorporated
+// Copyright Adobe
+// Copyright 2015 Adobe
 // All Rights Reserved
 //
 // NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the terms
-// of the Adobe license agreement accompanying it.
+// of the Adobe license agreement accompanying it. 
 // =================================================================================================
 
 namespace AdobeXMPCore {
@@ -13,14 +13,14 @@ namespace AdobeXMPCore {
 
 #define FRIEND_CLASS_DECLARATION() friend class AdobeXMPCore::IPathSegmentProxy;
 
-#include "XMPCore/Interfaces/IPathSegment.h"
+#include "IPathSegment.h"
 
 #if !BUILDING_XMPCORE_LIB && !SOURCE_COMPILING_XMPCORE_LIB
 
-#include "XMPCommon/Utilities/TWrapperFunctions.h"
-#include "XMPCommon/Interfaces/IUTF8String.h"
-#include "XMPCommon/Interfaces/IError.h"
-#include "XMPCore/Interfaces/ICoreObjectFactory.h"
+#include "TWrapperFunctions.h"
+#include "IUTF8String.h"
+#include "IError.h"
+#include "ICoreObjectFactory.h"
 
 #include <assert.h>
 

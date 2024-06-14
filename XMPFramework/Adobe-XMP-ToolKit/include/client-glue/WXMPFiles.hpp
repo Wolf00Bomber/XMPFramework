@@ -2,15 +2,15 @@
 #define __WXMPFiles_hpp__	1
 
 // =================================================================================================
-// ADOBE SYSTEMS INCORPORATED
-// Copyright 2002 Adobe Systems Incorporated
+// Copyright Adobe
+// Copyright 2002 Adobe
 // All Rights Reserved
 //
 // NOTICE: Adobe permits you to use, modify, and distribute this file in accordance with the terms
-// of the Adobe license agreement accompanying it.
+// of the Adobe license agreement accompanying it. 
 // =================================================================================================
 
-#include "client-glue/WXMP_Common.hpp"
+#include "WXMP_Common.hpp"
 
 #if XMP_StaticBuild	// ! Client XMP_IO objects can only be used in static builds.
 	#include "XMP_IO.hpp"

@@ -1,20 +1,20 @@
 // =================================================================================================
-// ADOBE SYSTEMS INCORPORATED
-// Copyright 2015 Adobe Systems Incorporated
+// Copyright Adobe
+// Copyright 2015 Adobe
 // All Rights Reserved
 //
 // NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the terms
-// of the Adobe license agreement accompanying it.
+// of the Adobe license agreement accompanying it. 
 // =================================================================================================
 
 #define FRIEND_CLASS_DECLARATION() friend class IConfigurationManagerProxy;
 
-#include "XMPCommon/Interfaces/IConfigurationManager.h"
+#include "IConfigurationManager.h"
 
 #if !BUILDING_XMPCOMMON_LIB && !SOURCE_COMPILING_XMP_ALL
 
-#include "XMPCommon/Utilities/TWrapperFunctions.h"
-#include "XMPCommon/Interfaces/IError.h"
+#include "TWrapperFunctions.h"
+#include "IError.h"
 
 #include <assert.h>
 
